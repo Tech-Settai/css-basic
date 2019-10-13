@@ -1,0 +1,26 @@
+* {
+    color: white;
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1, .four, #four {
+    color: brown;
+}
+.sec {
+    color: blue;
+}
+#three {
+    color: yellow;
+}
+.Child > h3 {
+    color: blueviolet;
+}
+
+@media (max-width: 768px) {
+ /* mobile  */
+ * {
+     color: black;
+     background-color: white;
+ }
+
+}
